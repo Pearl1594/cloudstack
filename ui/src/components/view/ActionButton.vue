@@ -17,6 +17,7 @@
 
 <template>
   <span class="row-action-button">
+  <div> Made a change </div>
     <a-tooltip arrowPointAtCenter placement="bottomRight" v-if="resource && resource.id && dataView">
       <template #title>
         {{ $t('label.view.console') }}
